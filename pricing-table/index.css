@@ -6,6 +6,7 @@
     width: 100%;
     max-width: min(80vw, 1200px);
     margin: 0 auto;
+    padding-top: 32px;
     display: flex;
     gap: 24px;
 }
