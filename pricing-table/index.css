@@ -1,0 +1,121 @@
+:root {
+    color: #333;
+}
+
+.cards {
+    width: 100%;
+    max-width: min(80vw, 1200px);
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    flex: 1 1 0;
+
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.05),
+        0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+.pro {
+    background: linear-gradient(90deg, #7dd3fc 0%, #a78bfa 100%);
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+.enterprise {
+    background: linear-gradient(90deg, #f9a8d4 0%, #fdba74 100%);
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+.free {
+    text-align: center;
+    padding: 8px;
+}
+
+.btn-outlined {
+    text-align: center;
+    background-color: white;
+    border-color: #333333;
+    border-radius: 3px;
+    height: 48px;
+    width: 100%;
+}
+
+
+.btn-outlined a {
+    text-transform: uppercase;
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-filled {
+    text-align: center;
+    background-color: black;
+    border-radius: 3px;
+    height: 48px;
+    width: 100%;
+}
+
+.btn-filled a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.description {
+    text-align: center;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.currency {
+    font-size: 20px;
+    vertical-align: super;
+}
+
+.period {
+    font-size: 16px;
+    vertical-align: sub;
+}
+
+.benefit {
+    list-style: none;
+    padding: 0;
+    margin-top: 24px;
+}
+
+.benefit li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 10px;
+}
+
+.benefit li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #22c55e;
+}
